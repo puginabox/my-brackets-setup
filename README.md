@@ -1,0 +1,2 @@
+- to install:
+  -- add www folder to Package Contents/Contents
