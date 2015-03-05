@@ -1,0 +1,585 @@
+{
+"gtTab.showTabs": false,
+"me.drewh.jsbeautify.on_save": true,
+"brackets-git.gitPath": "/usr/local/git/bin/git",
+"brackets-git.stripWhitespaceFromCommits": true,
+"brackets-git.addEndlineToTheEndOfFile": true,
+"brackets-git.removeByteOrderMark": false,
+"brackets-git.normalizeLineEndings": false,
+"brackets-git.useGitGutter": true,
+"brackets-git.markModifiedInTree": true,
+"brackets-git.showBashButton": true,
+"brackets-git.showReportBugButton": true,
+"brackets-git.useCodeInspection": true,
+"brackets-git.useGitFtp": false,
+"brackets-git.useVerboseDiff": false,
+"brackets-git.useDifftool": false,
+"brackets-git.showTerminalIcon": true,
+"brackets-git.avatarType": "AVATAR_COLOR",
+"brackets-git.dateMode": 1,
+"brackets-git.dateFormat": null,
+"brackets-git.enableAdvancedFeatures": true,
+"brackets-git.panelShortcut": "Ctrl-Alt-G",
+"brackets-git.commitCurrentShortcut": null,
+"brackets-git.commitAllShortcut": null,
+"brackets-git.bashShortcut": null,
+"brackets-git.pushShortcut": null,
+"brackets-git.pullShortcut": null,
+"brackets-git.gotoPrevChangeShortcut": null,
+"brackets-git.gotoNextChangeShortcut": null,
+"brackets-git.terminalCommand": null,
+"brackets-git.terminalCommandArgs": null,
+"brackets-git.debugMode": false,
+"dnbard.documents-toolbar.icons": true,
+"dnbard.documents-toolbar.tooltip": false,
+"dnbard.documents-toolbar.close_left": false,
+"dnbard.documents-toolbar.workingFiles": true,
+"dnbard.documents-toolbar.brackets_font": true,
+"dnbard.documents-toolbar.grayscaleIcons": false,
+"sacah.keyremapper.loadremapperdialog.keymap": {
+"navigate.toggleQuickEdit": {
+"commandID": "navigate.toggleQuickEdit",
+"key": "Cmd-E"
+},
+"navigate.toggleQuickDocs": {
+"commandID": "navigate.toggleQuickDocs",
+"key": "Cmd-K"
+},
+"navigate.jumptoDefinition": {
+"commandID": "navigate.jumptoDefinition",
+"key": "Cmd-J"
+},
+"view.increaseFontSize": {
+"commandID": "view.increaseFontSize",
+"key": "Cmd-+"
+},
+"view.decreaseFontSize": {
+"commandID": "view.decreaseFontSize",
+"key": "Cmd--"
+},
+"view.restoreFontSize": {
+"commandID": "view.restoreFontSize",
+"key": "Cmd-0"
+},
+"view.scrollLineUp": {
+"commandID": "view.scrollLineUp",
+"explicitPlaform": "mac",
+"key": "Ctrl-Alt-Up"
+},
+"view.scrollLineDown": {
+"commandID": "view.scrollLineDown",
+"explicitPlaform": "mac",
+"key": "Ctrl-Alt-Down"
+},
+"navigate.gotoFirstProblem": {
+"commandID": "navigate.gotoFirstProblem",
+"explicitPlaform": "mac",
+"key": "Cmd-'"
+},
+"edit.indent": {
+"commandID": "edit.indent",
+"key": "Cmd-]"
+},
+"edit.unindent": {
+"commandID": "edit.unindent",
+"key": "Cmd-["
+},
+"edit.lineComment": {
+"commandID": "edit.lineComment",
+"key": "Cmd-/"
+},
+"edit.blockComment": {
+"commandID": "edit.blockComment",
+"explicitPlaform": "mac",
+"key": "Alt-Cmd-/"
+},
+"edit.duplicate": {
+"commandID": "edit.duplicate",
+"key": "Cmd-D"
+},
+"edit.deletelines": {
+"commandID": "edit.deletelines",
+"key": "Shift-Cmd-D"
+},
+"edit.lineUp": {
+"commandID": "edit.lineUp",
+"explicitPlaform": "mac",
+"key": "Ctrl-Cmd-Up"
+},
+"edit.lineDown": {
+"commandID": "edit.lineDown",
+"explicitPlaform": "mac",
+"key": "Ctrl-Cmd-Down"
+},
+"edit.openLineAbove": {
+"commandID": "edit.openLineAbove",
+"key": "Shift-Cmd-Enter"
+},
+"edit.openLineBelow": {
+"commandID": "edit.openLineBelow",
+"key": "Cmd-Enter"
+},
+"navigate.gotoLine": {
+"commandID": "navigate.gotoLine",
+"explicitPlaform": "mac",
+"key": "Cmd-L"
+},
+"edit.splitSelIntoLines": {
+"commandID": "edit.splitSelIntoLines",
+"key": "Alt-Cmd-L"
+},
+"edit.addCursorToNextLine": {
+"commandID": "edit.addCursorToNextLine",
+"key": "Alt-Shift-Down"
+},
+"edit.addCursorToPrevLine": {
+"commandID": "edit.addCursorToPrevLine",
+"key": "Alt-Shift-Up"
+},
+"edit.undo": {
+"commandID": "edit.undo",
+"key": "Cmd-Z"
+},
+"edit.redo": {
+"commandID": "edit.redo",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-Z"
+},
+"edit.cut": {
+"commandID": "edit.cut",
+"key": "Cmd-X"
+},
+"edit.copy": {
+"commandID": "edit.copy",
+"key": "Cmd-C"
+},
+"edit.paste": {
+"commandID": "edit.paste",
+"key": "Cmd-V"
+},
+"edit.selectAll": {
+"commandID": "edit.selectAll",
+"key": "Cmd-A"
+},
+"file.openFolder": {
+"commandID": "file.openFolder",
+"key": "Alt-Cmd-O"
+},
+"navigate.previousMatch": {
+"commandID": "navigate.previousMatch",
+"key": "Alt-Up"
+},
+"navigate.nextMatch": {
+"commandID": "navigate.nextMatch",
+"key": "Alt-Down"
+},
+"navigate.quickOpen": {
+"commandID": "navigate.quickOpen",
+"key": "Shift-Cmd-O"
+},
+"view.hideSidebar": {
+"commandID": "view.hideSidebar",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-H"
+},
+"file.open": {
+"commandID": "file.open",
+"key": "Cmd-O"
+},
+"file.newDoc": {
+"commandID": "file.newDoc",
+"key": "Cmd-N"
+},
+"file.save": {
+"commandID": "file.save",
+"key": "Cmd-S"
+},
+"file.saveAll": {
+"commandID": "file.saveAll",
+"key": "Alt-Cmd-S"
+},
+"file.saveAs": {
+"commandID": "file.saveAs",
+"key": "Shift-Cmd-S"
+},
+"file.rename": {
+"commandID": "file.rename",
+"key": "F2"
+},
+"file.close": {
+"commandID": "file.close",
+"key": "Cmd-W"
+},
+"file.close_all": {
+"commandID": "file.close_all",
+"key": "Shift-Cmd-W"
+},
+"navigate.nextDoc": {
+"commandID": "navigate.nextDoc",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-]"
+},
+"pflynn.jump-to-matching-brace": {
+"commandID": "pflynn.jump-to-matching-brace",
+"key": "Shift-Cmd-["
+},
+"file.quit": {
+"commandID": "file.quit",
+"key": "Cmd-Q"
+},
+"edit.showCodeHints": {
+"commandID": "edit.showCodeHints",
+"explicitPlaform": "mac",
+"key": "Ctrl-Space"
+},
+"navigate.newRule": {
+"commandID": "navigate.newRule",
+"key": "Alt-Cmd-N"
+},
+"cmd.findInFiles": {
+"commandID": "cmd.findInFiles",
+"key": "Shift-Cmd-F"
+},
+"cmd.replaceInFiles": {
+"commandID": "cmd.replaceInFiles",
+"explicitPlaform": "mac",
+"key": "Alt-Shift-Cmd-F"
+},
+"cmd.find": {
+"commandID": "cmd.find",
+"key": "Cmd-F"
+},
+"cmd.findNext": {
+"commandID": "cmd.findNext",
+"explicitPlaform": "mac",
+"key": "Cmd-G"
+},
+"cmd.replace": {
+"commandID": "cmd.replace",
+"explicitPlaform": "mac",
+"key": "Alt-Cmd-F"
+},
+"cmd.findPrevious": {
+"commandID": "cmd.findPrevious",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-G"
+},
+"cmd.addNextMatch": {
+"commandID": "cmd.addNextMatch",
+"key": "Cmd-B"
+},
+"cmd.skipCurrentMatch": {
+"commandID": "cmd.skipCurrentMatch",
+"key": "Shift-Cmd-B"
+},
+"file.liveFilePreview": {
+"commandID": "file.liveFilePreview",
+"key": "Alt-Cmd-P"
+},
+"file.previewHighlight": {
+"commandID": "file.previewHighlight",
+"key": "Shift-Cmd-C"
+},
+"file.reloadLivePreview": {
+"commandID": "file.reloadLivePreview",
+"key": "Shift-Cmd-R"
+},
+"help.support": {
+"commandID": "help.support",
+"key": "F1"
+},
+"debug.showDeveloperTools": {
+"commandID": "debug.showDeveloperTools",
+"explicitPlaform": "mac",
+"key": "Alt-Cmd-I"
+},
+"debug.refreshWindow": {
+"commandID": "debug.refreshWindow",
+"explicitPlaform": "mac",
+"key": "Cmd-R"
+},
+"recentProjects.toggle": {
+"commandID": "recentProjects.toggle",
+"key": "Alt-Cmd-R"
+},
+"indentator.autoIndent": {
+"commandID": "indentator.autoIndent",
+"explicitPlatform": "mac",
+"key": "Ctrl-Alt-I"
+},
+"e4b.RESET_ALL": {
+"commandID": "e4b.RESET_ALL",
+"key": "Alt-Cmd-C"
+},
+"showParameterHint": {
+"commandID": "showParameterHint",
+"explicitPlaform": "mac",
+"key": "Ctrl-Shift-Space"
+},
+"com.github.mrmeku.closure-linter.fixjsstyle": {
+"commandID": "com.github.mrmeku.closure-linter.fixjsstyle",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-J"
+},
+"brackets-grunt.rundefault": {
+"commandID": "brackets-grunt.rundefault",
+"key": "Alt-Cmd-D"
+},
+"codefolding.expand": {
+"commandID": "codefolding.expand",
+"key": "Alt-Cmd-X"
+},
+"brackets-git.panel": {
+"commandID": "brackets-git.panel",
+"key": "Alt-Cmd-G"
+},
+"codefolding.collapse.all": {
+"commandID": "codefolding.collapse.all",
+"key": "Alt-1"
+},
+"codefolding.expand.all": {
+"commandID": "codefolding.expand.all",
+"key": "Alt-Shift-1"
+},
+"me.drewbratcher.extract": {
+"commandID": "me.drewbratcher.extract",
+"key": "Shift-Cmd-E"
+},
+"georapbox.notes.viewNotes": {
+"commandID": "georapbox.notes.viewNotes",
+"key": "Alt-Shift-Cmd-N"
+},
+"caniuse.run": {
+"commandID": "caniuse.run",
+"key": "Alt-Cmd-U"
+},
+"io.brackets.color-palette": {
+"commandID": "io.brackets.color-palette",
+"key": "Alt-F6"
+},
+"brackets.theseus.debug-brackets": {
+"commandID": "brackets.theseus.debug-brackets",
+"explicitPlatform": "mac",
+"key": "Alt-Cmd-T"
+},
+"ohnnyj.numbertabs.1": {
+"commandID": "ohnnyj.numbertabs.1",
+"explicitPlatform": "mac",
+"key": "Cmd-1"
+},
+"cmd.splitViewHorizontal": {
+"commandID": "cmd.splitViewHorizontal",
+"explicitPlaform": "mac",
+"key": "Alt-Shift-Cmd-2"
+},
+"ohnnyj.numbertabs.active.2": {
+"commandID": "ohnnyj.numbertabs.active.2",
+"explicitPlatform": "mac",
+"key": "Cmd-2"
+},
+"ohnnyj.numbertabs.active.3": {
+"commandID": "ohnnyj.numbertabs.active.3",
+"key": "Cmd-3"
+},
+"ohnnyj.numbertabs.inactive.3": {
+"commandID": "ohnnyj.numbertabs.inactive.3",
+"key": "Alt-Cmd-3"
+},
+"ohnnyj.numbertabs.active.4": {
+"commandID": "ohnnyj.numbertabs.active.4",
+"key": "Cmd-4"
+},
+"ohnnyj.numbertabs.inactive.4": {
+"commandID": "ohnnyj.numbertabs.inactive.4",
+"key": "Alt-Cmd-4"
+},
+"ohnnyj.numbertabs.active.5": {
+"commandID": "ohnnyj.numbertabs.active.5",
+"key": "Cmd-5"
+},
+"ohnnyj.numbertabs.inactive.5": {
+"commandID": "ohnnyj.numbertabs.inactive.5",
+"key": "Alt-Cmd-5"
+},
+"ohnnyj.numbertabs.active.6": {
+"commandID": "ohnnyj.numbertabs.active.6",
+"key": "Cmd-6"
+},
+"ohnnyj.numbertabs.inactive.6": {
+"commandID": "ohnnyj.numbertabs.inactive.6",
+"key": "Alt-Cmd-6"
+},
+"ohnnyj.numbertabs.active.7": {
+"commandID": "ohnnyj.numbertabs.active.7",
+"key": "Cmd-7"
+},
+"ohnnyj.numbertabs.inactive.7": {
+"commandID": "ohnnyj.numbertabs.inactive.7",
+"key": "Alt-Cmd-7"
+},
+"ohnnyj.numbertabs.active.8": {
+"commandID": "ohnnyj.numbertabs.active.8",
+"key": "Cmd-8"
+},
+"ohnnyj.numbertabs.inactive.8": {
+"commandID": "ohnnyj.numbertabs.inactive.8",
+"key": "Alt-Cmd-8"
+},
+"ohnnyj.numbertabs.active.9": {
+"commandID": "ohnnyj.numbertabs.active.9",
+"key": "Cmd-9"
+},
+"ohnnyj.numbertabs.inactive.9": {
+"commandID": "ohnnyj.numbertabs.inactive.9",
+"key": "Alt-Cmd-9"
+},
+"pflynn.goto_last_edit": {
+"commandID": "pflynn.goto_last_edit",
+"key": "Shift-Cmd-8"
+},
+"me.drewh.jsbeautify": {
+"commandID": "me.drewh.jsbeautify",
+"explicitPlaform": "mac",
+"key": "Shift-Cmd-L"
+},
+"ohnnyj.numbertabs.inactive.1": {
+"commandID": "ohnnyj.numbertabs.inactive.1",
+"explicitPlatform": "mac",
+"key": "Alt-Cmd-1"
+},
+"ohnnyj.numbertabs.inactive.2": {
+"commandID": "ohnnyj.numbertabs.inactive.2",
+"explicitPlatform": "mac",
+"key": "Alt-Cmd-2"
+},
+"gtTabs.createDocument": {
+"commandID": "gtTabs.createDocument",
+"key": "Cmd-T"
+},
+"ohnnyj.numbertabs.3": {
+"commandID": "ohnnyj.numbertabs.3",
+"key": ""
+},
+"edit.selectLine": {
+"commandID": "edit.selectLine",
+"explicitPlaform": "mac",
+"key": "Ctrl-L"
+},
+"cmd.findAllAndSelect": {
+"commandID": "cmd.findAllAndSelect",
+"explicitPlaform": "mac",
+"key": "Ctrl-Cmd-G"
+},
+"debug.reloadWithoutUserExts": {
+"commandID": "debug.reloadWithoutUserExts",
+"explicitPlaform": "mac",
+"key": "Ctrl-Cmd-R"
+},
+"[object Object]": {
+"commandID": {
+"_name": "Show projects panel",
+"_id": "ext-projects-show",
+"_enabled": true
+},
+"key": "Alt-P"
+},
+"e4b.TOGGLE_PANEL": {
+"commandID": "e4b.TOGGLE_PANEL",
+"explicitPlaform": "mac",
+"key": "Ctrl-Alt-X"
+},
+"redmunds.show-shortcuts.view.shortcuts": {
+"commandID": "redmunds.show-shortcuts.view.shortcuts",
+"explicitPlatform": "mac",
+"key": "Ctrl-Alt-/"
+},
+"ohnnyj.numbertabs.4": {
+"commandID": "ohnnyj.numbertabs.4",
+"key": ""
+},
+"response.launch": {
+"commandID": "response.launch",
+"key": ""
+},
+"ohnnyj.numbertabs.5": {
+"commandID": "ohnnyj.numbertabs.5",
+"key": ""
+},
+"ohnnyj.numbertabs.6": {
+"commandID": "ohnnyj.numbertabs.6",
+"key": ""
+},
+"ohnnyj.numbertabs.7": {
+"commandID": "ohnnyj.numbertabs.7",
+"key": ""
+},
+"ohnnyj.numbertabs.8": {
+"commandID": "ohnnyj.numbertabs.8",
+"key": ""
+},
+"ohnnyj.numbertabs.9": {
+"commandID": "ohnnyj.numbertabs.9",
+"key": ""
+},
+"httpserver.start": {
+"commandID": "httpserver.start",
+"key": ""
+},
+"navigate.prevDoc": {
+"commandID": "navigate.prevDoc",
+"explicitPlaform": "mac",
+"key": ""
+},
+"ohnnyj.numbertabs.2": {
+"commandID": "ohnnyj.numbertabs.2",
+"explicitPlatform": "mac",
+"key": ""
+},
+"navigate.gotoDefinition": {
+"commandID": "navigate.gotoDefinition",
+"key": ""
+},
+"cmd.splitViewNone": {
+"commandID": "cmd.splitViewNone",
+"explicitPlaform": "mac",
+"key": ""
+},
+"cmd.splitViewVertical": {
+"commandID": "cmd.splitViewVertical",
+"explicitPlaform": "mac",
+"key": ""
+},
+"response.inspect": {
+"commandID": "response.inspect",
+"key": ""
+}
+},
+"dnbard.projects.favorites": [],
+"dnbard.projects.filter": [
+"favorite",
+"regular"
+],
+"dnbard.projects.customs": [],
+"mikaeljorhult.bracketsPHPLintTools.php-available": true,
+"gist-manager.auths": {},
+"gist-manager.showButton": true,
+"mikaeljorhult.bracketsAutoprefixer.enabled": true,
+"themes.theme": "rain.monokai-dark-soda",
+"linting.collapsed": true,
+"closeBrackets": true,
+"theseus.mode": "static",
+"beautify.sassConvertPath": "/usr/bin/sass-convert",
+"mikaeljorhult.bracketsAutoprefixer.visualCascade": true,
+"mikaeljorhult.bracketsAutoprefixer.browsers": [
+"> 1%",
+"last 3 versions",
+"Firefox ESR",
+"Opera",
+"IE"
+],
+"bigeyex.bracketsSFTPUpload.enabled": false,
+"styleActiveLine": true,
+"sbruchmann.staticpreview.hostname": "",
+"sbruchmann.staticpreview.port": 3000,
+"sbruchmann.staticpreview.livereloadPort": 35729
+}
